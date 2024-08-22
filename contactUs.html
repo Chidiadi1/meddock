@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="fontawesome-free-6.3.0-web/css/all.min.css">
+    <script type="module" src="script.js"></script>
+    <title>MedDock</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo">MedDock</a>
+        <div class="menu-btn"></div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#">DOCTORS <i class="fas fa-caret-down"></i></a>
+                    <ul>
+                        <li><a class="a2" href="doctors.html">Doctors Profile</a></li>
+                    </ul>
+                </li>
+                <li><a href="appointments.html">APPOINTMENT</a></li>
+                <li><a href="departments.html">DEPARTMENTS</a></li>
+                <li><a href="#">BLOG <i class="fas fa-caret-down"></i></a>
+                    <ul>
+                        <li><a class="a2" href="blog.html">Blog 1</a></li>
+                        <li><a class="a2" href="blog.html">Blog 2</a></li>
+                        <li><a class="a2" href="blog.html">Blog 3</a></li>
+                        <li><a class="a2" href="blog.html">Blog 4</a></li>
+                        <li><a class="a2" href="blog.html">Blog 5</a></li>
+                    </ul>
+                </li>
+                <li><a href="contactUs.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="breadcrumb">
+            <div class="breadcrumb-text">
+                <h5>CONTACT US</h5>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><span>/</span>CONTACT</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section>
+            <div class="med-depts">
+                <i class="fas fa-comments"></i>
+                <h3>CONTACT US</h3>
+                <p>Our departments are staffed by board-certified doctors and specialists who are leaders in their respective fields. With a commitment to continuous learning and research, our team stays at the forefront of medical advancements.</p>
+            </div>
+        </section>
+
+        <section class="contact-msg-wrapper">
+            <form action="">
+                <label for="firstName">FIRST NAME</label><br>
+                <input placeholder="Type your first name.." id="firstName" type="text" required><br>
+                <label for="lastName">LAST NAME</label><br>
+                <input placeholder="Type your last name.." id="lastName" type="text" required><br>
+                <label for="email">E-MAIL</label><br>
+                <input placeholder="Type your e-mail address" id="email" type="email" required>
+                <textarea placeholder="Type your message" name="commentArea" cols="40" rows="6"></textarea>
+            </form>
+            <button class="blog-btn comment-btn"><a href="#">SEND MESSAGE</a></button>
+        </section>
+
+        <section>
+            <div class="co-div">
+                <div class="contact">
+                    <h4>CONTACT INFO</h4>
+                    <p><i class="fas fa-location-dot"></i>121 King Street, London, United Kingdom</p>
+                    <p><i class="fas fa-phone"></i>132-465-7981</p>
+                    <a href="#"><i class="fas fa-envelope"></i>info@meddockrandom.com</a>
+                </div>
+
+                <div class="hours">
+                    <h4>PHONE DIRECTORY</h4>
+                    <div>
+                        <p>Main Operator</p>
+                        <p>312-645-7560</p>
+                    </div>
+                    <div>
+                        <p>Billings</p>
+                        <p>312-454-7000</p>
+                    </div>
+                    <div>
+                        <p>Medical Records</p>
+                        <p>312-921-8700</p>
+                    </div>
+                    <div>
+                        <p>Referrals & Appointments</p>
+                        <p>312-897-4621</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="footer-divs">
+            <div class="about">
+                <h4>ABOUT MEDDOCK</h4>
+                <p>We utilize state-of-the art technology and the latest medical advancements to ensure accurate diagnoses and effective treatment plans.<br><br>Our team of highly skilled doctors, nurses, and healthcare professionals work collaboratively to deliver the highest standard of medical care</p>
+                <div>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-x"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+
+            <div class="depts">
+                <h4>MEDICAL DEPARTMENTS</h4>
+                <div>
+                    <a href="departments.html"><i class="fas fa-angle-right"></i>Pediatrics</a>
+                    <a href="departments.html"><i class="fas fa-angle-right"></i>Neurosurgery</a>
+                    <a href="departments.html"><i class="fas fa-angle-right"></i>Diabetes Care</a>
+                    <a href="departments.html"><i class="fas fa-angle-right"></i>Cardiology</a>
+                    <a href="departments.html"><i class="fas fa-angle-right"></i>Ultrasound Echocardiogram</a>
+                </div>
+            </div>
+
+            <div class="tips">
+                <h4>LATEST HEALTHCARE NEWS</h4>
+                <div>
+                    <a href="blog.html"><i class="fas fa-angle-right"></i>Center for Medical Technology</a>
+                    <a href="blog.html"><i class="fas fa-angle-right"></i>The Future of Personalized Medicine</a>
+                    <a href="blog.html"><i class="fas fa-angle-right"></i>Navigating Mental Health Resources</a>
+                    <a href="blog.html"><i class="fas fa-angle-right"></i>Misconceptions About Vaccines</a>
+                    <a href="blog.html"><i class="fas fa-angle-right"></i>Coping Strategies During Stressful Times</a>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="c-right">&copy; <a href="#">MedDock</a> 2024. All rights reserved. Built by <a href="#">O.Chidiadi</a></div>
+        </section>
+    </footer>
+</body>
+</html>
